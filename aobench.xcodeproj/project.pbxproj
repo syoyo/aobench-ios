@@ -24,6 +24,7 @@
 		C55CE9F4160E201F007FE35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55CE9CC160E201E007FE35D /* Foundation.framework */; };
 		C55CE9FC160E201F007FE35D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C55CE9FA160E201F007FE35D /* InfoPlist.strings */; };
 		C55CE9FF160E201F007FE35D /* aobenchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55CE9FE160E201F007FE35D /* aobenchTests.m */; };
+		C55CEA0D160E30A2007FE35D /* aobench.c in Sources */ = {isa = PBXBuildFile; fileRef = C55CEA0C160E30A2007FE35D /* aobench.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C55CE9FB160E201F007FE35D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C55CE9FD160E201F007FE35D /* aobenchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aobenchTests.h; sourceTree = "<group>"; };
 		C55CE9FE160E201F007FE35D /* aobenchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aobenchTests.m; sourceTree = "<group>"; };
+		C55CEA0C160E30A2007FE35D /* aobench.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aobench.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				C55CE9E5160E201F007FE35D /* ViewController_iPhone.xib */,
 				C55CE9E8160E201F007FE35D /* ViewController_iPad.xib */,
 				C55CE9D1160E201E007FE35D /* Supporting Files */,
+				C55CEA0C160E30A2007FE35D /* aobench.c */,
 			);
 			path = aobench;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				C55CE9D7160E201E007FE35D /* main.m in Sources */,
 				C55CE9DB160E201E007FE35D /* AppDelegate.m in Sources */,
 				C55CE9E4160E201F007FE35D /* ViewController.m in Sources */,
+				C55CEA0D160E30A2007FE35D /* aobench.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +464,7 @@
 				C55CEA04160E201F007FE35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C55CEA05160E201F007FE35D /* Build configuration list for PBXNativeTarget "aobenchTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				C55CEA07160E201F007FE35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

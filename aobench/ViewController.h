@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+  IBOutlet UIImageView  *_imageView;
+  //IBOutlet UIButton     *_btn;
+  IBOutlet UILabel      *_lbl;
+}
 
 @end
