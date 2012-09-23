@@ -12,10 +12,15 @@ Performance
 
 256x256, 2 subsamples.
 
-* iPhone4(iOS6) 12.0 secs
+* iPhone4(iOS6) 13.2 secs
 * Your performance result here!(You can report your result with pull request ;-)
 
 FYI, C version of aobench runs about 1 secs on MacBook Pro 2.3 GHz.
+
+Gallery
+-------
+
+![aobench_iphone4](https://github.com/syoyo/aobench-ios/raw/master/aobench_iphone4.png)
 
 Author
 ------
