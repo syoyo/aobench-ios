@@ -13,6 +13,7 @@ Performance
 256x256, 2 subsamples.
 
 * iPhone4(iOS 6.0) 13.2 secs
+* iPhone5(iOS 6.0) 6.5 secs, thanks to @hidemaros !
 * iPad2(iOS 6.0) 6.5 secs
 * Your performance result here!(You can report your result with pull request ;-)
 
